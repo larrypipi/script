@@ -234,17 +234,30 @@ print_speedtest() {
 	printf "%-18s%-18s%-20s%-12s\n" " Node Name" "Upload Speed" "Download Speed" "Latency" | tee -a $log
     speed_test '' 'Speedtest.net'
     speed_fast_com
-    speed_test '5316' 'Nanjing   CT'
-    speed_test '4751' 'Beijing   CT'
-    speed_test '7509' 'Hangzhou  CT'
-	speed_test '4624' 'Chengdu   CT'
-	speed_test '5083' 'Shanghai  CU'
-	speed_test '4863' "Xi'an     CU"
-	speed_test '5726' 'Chongqing CU'
-	speed_test '4665' 'Shanghai  CM'
+	speed_test '5145' 'Beijing   CU'
+	speed_test '4713' 'Beijing   CM'
+	speed_test '3633' 'Shanghai   CT'
+	speed_test '16719' 'Shanghai   CM'
+	speed_test '17251' 'Guangzhou   CT'
+	speed_test '6611' 'Guangzhou   CM'
+	speed_test '2461' 'Chengdu   CU'
 	speed_test '4575' 'Chengdu   CM'
-	speed_test '6168' 'Kunming   CM'
-	speed_test '6611' 'Guangzhou CM'
+	speed_test '20038' 'Wuhan   CT'
+	speed_test '5485' 'Wuhan   CU'
+	speed_test '5292' 'Xi'an   CM'
+	speed_test '4863' 'Xi'an   CU'
+	speed_test '5017' 'Shengyang   CU'
+	speed_test '13704' 'Nanjing   CU'
+	speed_test '5316' 'Nanjing   CT'
+	speed_test '17584' 'Chongqing   CM'
+	speed_test '19076' 'Chongqing   CT'
+	speed_test '7509' 'Hangzhou  CT'
+    speed_test '5300' 'Hangzhou  CU'
+    speed_test '4647' 'Hangzhou  CM'
+	speed_test '16398' 'Guiyang  CM'
+	speed_test '4884' 'Fuzhou   CM'
+	speed_test '16171' 'Fuzhou   CU'
+
 	 
 	rm -rf speedtest.py
 }
