@@ -28,3 +28,7 @@ Usage:
 ```
  
 
+
+##speedtest 服务器id获取地址
+
+http://www.speedtest.net/speedtest-servers-static.php
